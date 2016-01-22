@@ -129,9 +129,11 @@ aside {
 	float:left;
 }
 
-.salomon_channel {
+.salomon_channel a{
 	float:left;
 	margin-left:7px;
+	text-decoration: none;
+	color:black;
 }
 
 .subscribe_image {
@@ -195,10 +197,11 @@ aside {
 	font-size:30px;
 }
 
-.add_to {
+.add_to a{
 	float:left;
 	word-spacing:5px;
 	color:grey;
+	text-decoration: none;
 }
 
 .add_to a:hover {
@@ -227,6 +230,47 @@ aside {
 .tab2 {
 	margin-left:87px;
 	font-size:14px;
+}
+
+
+/***************************
+		COMMENTS
+****************************/
+
+.header_body {
+	height:40px;
+	width:40px;
+	float:left;
+}
+
+
+
+.comment_div {
+	float:left;
+	margin-left:10px;
+
+}
+.comment_div a{
+	font-size:12px;
+	color:#167ac6;
+	text-decoration:none;
+
+}
+
+.comment {
+	font-size:10px;
+}
+
+.comment_time {
+	font-size:12px;
+	color:grey;
+	margin-left:10px;
+
+}
+
+.reply {
+
+
 }
 
 /***************************
